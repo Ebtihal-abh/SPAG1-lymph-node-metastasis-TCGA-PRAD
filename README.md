@@ -86,12 +86,14 @@ Run all scripts from the **project root** in the order listed below.
 # Phase 2 — Descriptive analyses
 04_table1_cohort_characteristics.R
 05_survival_models.R
+05b_PFI_within_N1_subgroup.R          # subgroup PFI analysis (peer review)
 07_biology_figures.R
 
 # Phase 3 — Transcriptional analyses
 08_SPAG1_Q4vsQ1_DE_fgsea.R
 08b_DE_GSEA_N1_vs_N0.R
 08c_TSS_balance_SPAG1_quartiles.R
+08d_GSEA_SPAG1_by_Nstratum.R          # subgroup GSEA analysis (peer review)
 
 # Phase 4 — Logistic regression and validation
 11_SPAG1_logistic_regression_N1.R
